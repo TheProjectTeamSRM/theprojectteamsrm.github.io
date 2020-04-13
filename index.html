@@ -1,417 +1,444 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>The Project Team-Official</title>
-  <meta name="description" content="The Project Team is a group of electronic enthusiasts working under ECE department.">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="shortcut icon" href="download.jpg" >
-  <link rel="stylesheet" href="https://mark.space/css/main.min.css?40">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="style.css">
-  <meta name="theme-color" content="#071621">
-  <meta name="msapplication-navbutton-color" content="#071621">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#071621">
-<meta name="msvalidate.01" content="474D1142972914F156E1599D53CC9073" />
-<meta name='wmail-verification' content='d3331ab27111759188c81aa40e94b504' />
-<meta name="yandex-verification" content="0d349b77872d2c13" />
+  <title>The Project Team</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TJRN7CT');</script>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Shuffler JavaScript includes -->
+  <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+  <script src="assets/js/jquery.shuffleLetters.js"></script>
+  <script src="assets/js/script.js"></script>
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" type="text/css" />
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+
+  <!-- Load font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,900&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 
+</head>
 
+<body id="page-top">
+  <!--loading spinner-->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <!--Mobile nav-->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#home" class="closeonclick">Home</a>
+      <a href="#events" class="closeonclick" >Events</a>
+      <a href="#service" class="closeonclick">Domains</a>
+        <a href="https://1998utkarshshukla.github.io/website/Gallery/" class="closeonclick" >Gallery</a>
+      <a href="#contact" class="closeonclick">Contact</a>
+    </div>
+  </div>
 
-<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJRN7CT" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top" id="mainNav" style="background: rgba(0, 0, 0, 0.9); height:80px">
+    <div class="container nav">
+      <a class="navbar-brand js-scroll" href="#page-top"><img src="img/favicon.png" alt="Logo" style="height:60px;width:68px;"></a>
+     
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class=" navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll" href="#events">About Us</a>
+        </li>
 
-  <style>
-  
-   @media only screen and (min-width:768px) {
-    .preload { position:fixed;top:0;left:0;right:0;bottom:0;text-align:center;z-index:1000;background-color:#041b2b;-webkit-transition:opacity 1s ease-out;transition:opacity 1s ease-out;}
-    .preload-hide { opacity:0; }
-    .preload svg {
-      vertical-align: middle;
-      display: inline-block;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-top: -80px;
-      margin-left: -80px;
-      -webkit-animation-duration: 2.5s;
-      animation-duration: 2.5s;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
-      -webkit-animation-iteration-count: infinite;
-      animation-iteration-count: infinite;
-      -webkit-backface-visibility: visible;
-      backface-visibility: visible;
-      -webkit-animation-name: flip;
-      animation-name: flip;
-      -webkit-transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-      transform: perspective(500px) rotate3d(0, 1, 0, -360deg)
-    }
-  }
-  @media only screen and (max-width:767px) {
-   .preload {display: none}
-  }
+        <li class="nav-item">
+          <a class="nav-link js-scroll" href="#service">Domains</a>
+        </li>
 
-   @-webkit-keyframes flip {
-     from {
-       -webkit-transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-       transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-       -webkit-animation-timing-function: ease-out;
-       animation-timing-function: ease-out
-     }
-     40% {
-       -webkit-transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -190deg);
-       transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -190deg);
-       -webkit-animation-timing-function: ease-out;
-       animation-timing-function: ease-out
-     }
-     50% {
-       -webkit-transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -170deg);
-       transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -170deg);
-       -webkit-animation-timing-function: ease-in;
-       animation-timing-function: ease-in
-     }
-     80% {
-       -webkit-transform: perspective(500px) scale3d(.95, .95, .95);
-       transform: perspective(500px) scale3d(.95, .95, .95);
-       -webkit-animation-timing-function: ease-in;
-       animation-timing-function: ease-in
-     }
-     to {
-       -webkit-transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-       transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-       -webkit-animation-timing-function: ease-in;
-       animation-timing-function: ease-in
-     }
-   }
-
-   @keyframes flip {
-     from {
-       -webkit-transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-       transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-       -webkit-animation-timing-function: ease-out;
-       animation-timing-function: ease-out
-     }
-     40% {
-       -webkit-transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -190deg);
-       transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -190deg);
-       -webkit-animation-timing-function: ease-out;
-       animation-timing-function: ease-out
-     }
-     50% {
-       -webkit-transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -170deg);
-       transform: perspective(500px) translate3d(0, 0, 100px) rotate3d(0, 1, 0, -170deg);
-       -webkit-animation-timing-function: ease-in;
-       animation-timing-function: ease-in
-     }
-     80% {
-       -webkit-transform: perspective(500px) scale3d(.95, .95, .95);
-       transform: perspective(500px) scale3d(.95, .95, .95);
-       -webkit-animation-timing-function: ease-in;
-       animation-timing-function: ease-in
-     }
-     to {
-       -webkit-transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-       transform: perspective(500px) rotate3d(0, 1, 0, -360deg);
-       -webkit-animation-timing-function: ease-in;
-       animation-timing-function: ease-in
-     }
-   }
-  </style>
-  </head>
-  <body>
- 
-  <div id="page-wrap" class="sections-wrap">
-    <div class="sections-wrap__overflow"></div>
-    <nav class="nav">
-      <div class="nav__table">
-        <ul>
-          <li><a href="#Video">Video</a></li>
-          <li><a href="#About">About</a></li>
-		  <li><a href="#Events">Events</a></li>
-		  <li><a href="#Projects">Projects</a></li>
-		  <li><a href="#Team">Team</a></li>
-          <li><a href="#Tuned">Stay tuned</a></li>
+         <li class="nav-item">
+          <a class="nav-link js-scroll" href="https://1998utkarshshukla.github.io/website/Gallery/">Gallery</a>
+        </li>
+            
+        <li class="nav-item">
+          <a class="nav-link js-scroll" href="#contact">Contact</a>
+        </li>
         </ul>
       </div>
-    </nav>
-    <header class="header hidden-xs">
-	
-	
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <a href="/" class="header__logo">
-              <img src="download.jpg" alt="" class="header__logo__img">
-            </a>
-            
+      <span style="font-size:30px;cursor:pointer" class="open-nav" onclick="openNav()">&#9776; </span>
+
+    </div>
+
+  </nav>
+  <!--/ Nav End /-->
+  <div class="icon-bar">
+    <a href="https://m.facebook.com/theprojectteamsrm/" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/company/theprojectteamsrm/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="https://github.com/TheProjectTeamSRM" class="github"><i class="fa fa-github"></i></a>
+    <a href="https://instagram.com/the_project_team?igshid=1pfeuhnh6v588" class="instagram"><i class="fa fa-instagram"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+  </div>
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg);">
+    
+    <div class="overlay-itro"></div>
+    
+    <div class="intro-content display-table">
+      
+      <div class="table-cell">
+        <div class="container">
+        
+          <img src="img/Logo-white.png" class="icon-projectTeam">
+
+          <p class="intro-subtitle"><span class="text-slider-items">Learn , Make , Share</span><strong class="text-slider"></strong></p>
+        
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  <!--/ Intro Skew End /-->
+
+  <!--/ Events Swiper /-->
+  <div id="events"></div>
+  <section  style="padding-bottom:50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              About Us
+            </h3>
+            <p class="subtitle-a">
+              Expanding the Possibilities and Evolving Wisely
+            </p>
+            <div class="line-mf"></div>
+          </div>
+            <center class ="subtitle-a">The Project Team aims to extend a platform to expose students to challenges and new technologies in the field of electronics and thus to nurture and develop their skill set in this arena. Consequently, we tend to unite the theoretical and practical aspects of learning. Active participation in various National and International Technical Competitions, involves development of innovative solutions for solving socially relevant issues. Our school outreach programs help students acquire new skills in an era of rapidly evolving technology. Apart from being involved in various funded projects, the team looks forward to organising multiple workshops for imparting knowledge and skill sets.</center>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <a class="swiper-slide" href="" target="_blank">
+        <img src="img/1.jfif">
+      </a>
+      <a class="swiper-slide" href="" target="_blank">
+        <img src="img/2.jfif">
+      </a>
+      <a class="swiper-slide" href="" target="_blank">
+        <img src="img/3.jfif">
+      </a>
+      <a class="swiper-slide" href="" target="_blank">
+        <img src="img/4.jfif">
+      </a>
+      <a class="swiper-slide" href="" target="_blank">
+        <img src="img/5.jpeg">
+      </a>
+      <a class="swiper-slide" href="" target="_blank">
+        <img src="img/6.jpeg">
+      </a>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+
+
+
+
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="section-counter paralax-mf bg-image" style="background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(img/favicon.png) no-repeat 50% 50% fixed;background-size:300px;  ">
+    <div class="container opacity-div" >
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              What We Work On
+            </h3>
+            <div class="line-mf"></div>
           </div>
         </div>
       </div>
-    </header>
-    
-    
-    
-    <div id="fullpage" class="sections-wrap" >
-	
-      <div class="section s_2" style="background-color:#000;">
-        <canvas id="page-bg-2" class="page-bg"></canvas>
-        
-		
-        <div class="container" >
-          <div class="row">
-            <div class="col-xs-12">
-              <h1 class="s_1__h" style="font:300 26px/30px Montserrat;text-transform:none; color:#fff;">Group of electronic enthusiasts working under ECE department.<br> </h1>
-              <div class="s_1__title" style="font:300 12px/14px Montserrat;text-transform:uppercase;margin-top:60px;color:#fff;">Find us at:<br><br>
-                <a href="" target="_blank"><img src=""></a><a href="" target="_blank"><img src=""></a><a href="" target="_blank"><img src=""></a>
-		<div class="soon2">
-                <img src="" style="opacity:0.3;"><br>
-		
-		</div>
-		
-              </div>
-              <div class="clearfix"></div>
+      <div class="row">
+        <div class="col-md-4" >
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><img src="img/iot.png" alt="IOT"></span>
+            </div>
+            <div class="service-content">
+                <h2 class="s-title">Internet Of Things</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" >
+          <div class="service-box" >
+            <div class="service-ico" >
+              <span class="ico-circle"><img src="img/electricity.png" alt="idea"></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Electronics</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><img src="img/cloud-computing.png" alt="cloud Computing"></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Cloud Computing</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><img src="img/circuit.png" alt="chip"></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Fabrication Web</h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><img src="img/optimization.png" alt="corporate"></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Corporate</h2>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><img src="img/social.png" alt="corporate"></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Social Media</h2>
 <!--
-              <div id="startTime" class="s_1__countdown s_2__thumb_video" style="width:400px;margin-right:100px;white-space:normal;">
-                <div class="s_1__countdown__top">
-                  <div class="s_1__countdown__title"></div>
-                </div>
-                <div class="clearfix"></div>
-                <div>
-                  <div class="s_1__countdown__cell">
-                    <span class="s_1__days s_1__countdown__digit">&nbsp;</span>
-                    <span class="s_1__countdown__label">days</span>
-                  </div>
-                  <div class="s_1__countdown__cell">
-                    <span class="s_1__houers s_1__countdown__digit">&nbsp;</span>
-                    <span class="s_1__countdown__label">hours</span>
-                  </div>
-                  <div class="s_1__countdown__cell">
-                    <span class="s_1__minutes s_1__countdown__digit">&nbsp;</span>
-                    <span class="s_1__countdown__label">minutes</span>
-                  </div>
-                  <div class="s_1__countdown__cell">
-                    <span class="s_1__seconds s_1__countdown__digit">&nbsp;</span>
-                    <span class="s_1__countdown__label">seconds</span>
-                  </div>
-                </div>
-                <div class="s_1__countdown__title"></div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="s_1__links">
-                <a href="http://goo.gl/bkhQBS" target="_blank" class="s_1__contribute hidden-xs"><span class="fa fa-paper-plane"></span> Telegram group</a>
-		<div class="s_1__raised_link_red"><a onclick="top.open('https://mark.space/account/','_blank');"><span>MARK.SPACE PASS</span></a></div>
-              </div>
+              <p class="s-description text-center">
+                    =================== Description ====================
+              </p>
 -->
             </div>
           </div>
-        
-		</div>
-		
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><img src="img/videography.png" alt="videography"></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Videography</h2>
+              </div>
+          </div>
+        </div>
+        </div>
       </div>
-      <section class="section s_2">
-	  
-        <div class="container">
-		<canvas id="page-bg-2" class="page-bg"></canvas>
-          <div class="row">
-            <div class="col-xs-12">
-              <h2 class="s_title" data-before="video gallery">What is the Project Team all about?</h2>
-              <div id="s_2__tab-1" class="s_2__tab">
-                <div class="s_2__current_video">
-                  <div class="s_2__video__corner s_2__video__corner-tl"></div>
-                  <div class="s_2__video__corner s_2__video__corner-tr"></div>
-                  <div class="s_2__video__corner s_2__video__corner-br"></div>
-                  <div class="s_2__video__corner s_2__video__corner-bl"></div>
-                  <div class="s_2__video__border s_2__video__border-top-bottom"></div>
-                  <div class="s_2__video__border s_2__video__border-left-right"></div>
-                  <div class="s_2__video__wrap">
-                    <iframe width="553" height="312" src="https://www.youtube.com/embed/yAoLSRbwxL8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-                  </div>
-                </div>
-                <div class="s_2__thumb_video">
-                  <ul>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt="" width="165px"></a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt="" width="165px"></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section s_2">
-	  <canvas id="page-bg-2" class="page-bg"></canvas>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2 class="s_title" data-before="about">About</h2>
-              <div id="s_2__tab-1" class="s_2__tab">
-                <div class="s_4__wrap d-table">
-                  <div class="s_2__video__corner s_2__video__corner-tl hidden-xs"></div>
-                  <div class="s_2__video__corner s_2__video__corner-tr hidden-xs"></div>
-                  <div class="s_2__video__corner s_2__video__corner-br hidden-xs"></div>
-                  <div class="s_2__video__corner s_2__video__corner-bl hidden-xs"></div>
-                  <ul class="s_4__nav d-table-cell hidden-xs">
-                    <li class="active"><a href="#s_2__tab-2-1">ABOUT</a></li>
-                    <li><a href="#s_2__tab-2-2">PROJECTS</a></li>
-                    <li><a href="#s_2__tab-2-3">EVENTS CALENDAR</a></li>
-                    <li><a href="#s_2__tab-2-4">ANNOUNCEMENTS</a></li>
-                    <li><a href="#s_2__tab-2-5">SOCIAL NETWORKS AND THE BLOGOSPHERE</a></li>
-                  </ul>
-                  <div class="s_4__text d-table-cell">
-                    <div class="s_2__video__border s_2__video__border-top-bottom hidden-xs"></div>
-                    <div class="s_2__video__border s_2__video__border-left-right hidden-xs"></div>
-                    <div class="s_4__tab active" id="s_2__tab-2-1">
-                      <a href="#s_2__tab-2-1" class="hidden-lg hidden-md hidden-sm s_4__tab__title">ABOUT</a>
-                      <div class="d-table">
-                        <div class="d-table-cell">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                        </div>
-                        <div class="s_2__video__corner s_2__video__corner-br hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__corner s_2__video__corner-bl hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-top-bottom hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-left-right hidden-lg hidden-md hidden-sm"></div>
-                      </div>
-                    </div>
-                    <div class="s_4__tab" id="s_2__tab-2-2" style="display: none;">
-                      <a href="#s_2__tab-2-2" class="hidden-lg hidden-md hidden-sm s_4__tab__title">PROJECTS</a>
-                      <div class="d-table">
-                        <div class="d-table-cell">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                        </div>
-                        <div class="s_2__video__corner s_2__video__corner-br hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__corner s_2__video__corner-bl hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-top-bottom hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-left-right hidden-lg hidden-md hidden-sm"></div>
-                      </div>
-                    </div>
-                    <div class="s_4__tab" id="s_2__tab-2-3" style="display: none;">
-                      <a href="#s_2__tab-2-3" class="hidden-lg hidden-md hidden-sm s_4__tab__title">EVENTS</a>
-                      <div class="d-table">
-                        <div class="d-table-cell">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                        </div>
-                        <div class="s_2__video__corner s_2__video__corner-br hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__corner s_2__video__corner-bl hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-top-bottom hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-left-right hidden-lg hidden-md hidden-sm"></div>
-                      </div>
-                    </div>
-                    <div class="s_4__tab" id="s_2__tab-2-4" style=" display: none;">
-                      <a href="#s_2__tab-2-4" class="hidden-lg hidden-md hidden-sm s_4__tab__title">ANNOUNCEMENTS</a>
-                      <div class="d-table">
-                        <div class="d-table-cell">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                        </div>
-                        <div class="s_2__video__corner s_2__video__corner-br hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__corner s_2__video__corner-bl hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-top-bottom hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-left-right hidden-lg hidden-md hidden-sm"></div>
-                      </div>
-                    </div>
-                    <div class="s_4__tab" id="s_2__tab-2-5" style=" display: none;">
-                      <a href="#s_2__tab-2-5" class="hidden-lg hidden-md hidden-sm s_4__tab__title">SOCIAL NETWORKS AND THE BLOGOSPHERE</a>
-                      <div class="d-table">
-                        <div class="d-table-cell">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                        </div>
-                        <div class="s_2__video__corner s_2__video__corner-br hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__corner s_2__video__corner-bl hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-top-bottom hidden-lg hidden-md hidden-sm"></div>
-                        <div class="s_2__video__border s_2__video__border-left-right hidden-lg hidden-md hidden-sm"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      
-      
-      <section class="section s_12">
-	  
-        <canvas id="page-bg-12" class="page-bg"></canvas>
-        <div class="container">
-		<canvas id="page-bg-2" class="page-bg"></canvas>
-          <div class="row">
-            <div class="col-md-6 col-xs-12">
-              <h2 class="s_title" data-before="Stay tuned!">Stay tuned!</h2>
+    <!--/ Section Services End /-->
 
-<div class="s_12__subscribe" id="mc_embed_signup">
-<form method="POST" action="" target="_blank"><input type="hidden" name="charset" value="UTF-8"><input type="hidden" name="default_list_id" value="12303965"><input type="hidden" name="overwrite" value="2"><input type="hidden" name="is_v5" value="1">
-<input type="hidden" name="SOURCE" value="stay_tuned">
-<input type="email" value="" name="email" class="s_12__subscribe__mail" placeholder="email address" required="">
-<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="s_12__subscribe__submit">
-</form>
-</div>
-            </div>
-            <div class="col-lg-5 col-md-5 col-xs-12">
-              <div class="s_12__text">
-                
-              </div>
-            </div>
-          </div>
-            <div class="col-xs-12">
-              <div class="footer__links">
-                <div class="footer__soc">
-                  <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-                  <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
-                  <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-                </div>
-              </div>
-            </div>
-        </div>
-        <div class="s_12__footer hidden-lg hidden-md ">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <div class="footer__links hidden-xs">
-                  <div class="footer__soc no-visible">
-                    <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+
+  </section>
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="contact-wrapper">
+                    <form action="" method="post" role="form" class="contactForm">
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" id="message" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
-                <div class="footer__copyright">
-                  ©2018 PROJECT TEAM &nbsp;&nbsp; SRM INSTITUTE OF SCIENCE AND TECHNOLOGY
-				  <br><a href="mailto:"></a>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                     Meet Us
+                    </h5>
+                  </div>
+
+                  <div class="map-responsive">
+
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d714.5567414931071!2d80.03790353667596!3d12.820481672937037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f76c8b95a6f7%3A0x3d59e2e9bcccb4d7!2sCRC%20Block%2C%20Srm%20University!5e0!3m2!1sen!2sin!4v1586685024657!5m2!1sen!2sin"
+                    width="600" height="1200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                   
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
-    <script src="https://mark.space/js/scripts.min.js?40" async=""></script>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">&copy;Copyright ©2020 All rights reserved | This Website is made with passion by 
+                <strong>The Project Team</strong>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
 
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
 
-<script>
-setTimeout(function(){
-!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
 
-twq('init','nyfjz');
-twq('track','PageView');
-},1200);
-</script>
+  <!-- Shuffler JavaScript includes -->
+  <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+  <script src="assets/js/jquery.shuffleLetters.js"></script>
+  <script src="assets/js/script.js"></script>
 
-<style>
-#carrotquest-messenger-collapsed #carrotquest-collapsed-text #carrotquest-collapsed-text-text-cont {font:400 11px/12px Roboto;max-width:80px;max-height:50px;color:#000;margin:5px 8px;}
-</style>
-<script src="https://mark.space/edit.js"></script>
-</div>
+  <!-- Swiper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+  <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+  </script>
+
+  <!-- Initialize Swiper -->
+  <script>
+var swiper = new Swiper('.swiper-container', {
+        speed:1000,
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        loop: true,
+        coverflowEffect: {
+            rotate: 10,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        },
+});
+    function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+$(document).ready(function() {
+      
+      setTimeout(function(){
+          $('body').addClass('loaded');
+      }, 500);
+
+      });
+
+$('.closeonclick').click(function(){
+  document.getElementById("myNav").style.width = "0%";
+
+});
+$(document).ready(function(){
+  $(".icon-projectTeam").show( "clip", {direction: "horizontal"}, 2500 );
+
+})
+  </script>
 </body>
+
 </html>
