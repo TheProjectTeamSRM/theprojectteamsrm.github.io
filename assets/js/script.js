@@ -35,7 +35,7 @@ $(function(){
 
 		// Shuffle the shuffler with custom text
 		shuffler.shuffleLetters({
-			"text": "The Project Team"
+			"text": "Team Biocom"
 		});
 
 		userText.val("type anything and hit return..").fadeIn();
@@ -43,3 +43,4 @@ $(function(){
 	},4000);
 
 });
+
