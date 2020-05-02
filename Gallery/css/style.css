@@ -116,7 +116,23 @@ b,
 strong {
   font-weight: bolder;
 color: white; }
-
+.ftco-section .container{
+  max-width: 1140px;
+}
+.ftco-animate:hover {
+  color: red;
+}
+.contact-section p {
+  color: white;
+}
+.contact-section a{
+  color: white;
+}
+.contact-section a:hover {
+  color: rgb(194, 91, 91) !important;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
 small {
   font-size: 80%; }
 .nav-link{
